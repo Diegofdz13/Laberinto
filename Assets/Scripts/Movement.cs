@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     // Referencia al componente CharacterController
     private CharacterController controller;
     // Velocidad de movimiento del jugador
-    public float speed = 5f;
+    public float speed = 0.5f;
     // Referencia a la cámara para moverl el personbje hacia donde mira
     public Transform camara;
    

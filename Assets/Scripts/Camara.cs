@@ -14,14 +14,15 @@ public class Camara : MonoBehaviour
     void Start()
     {
         // Bloquea y centra el cursor
-        Cursor.lockState = CursorLockMode.Locked;   
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void Update()
     {
         // Detecta el movimiento del ratón en horizontal y vertical
-        float mouseX = Input.GetAxis("Mouse X") * velocidad * 30f * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * velocidad * 30f * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * velocidad * 7f * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * velocidad * 7f * Time.deltaTime;
 
         // Calcula la rotación vertical y la limita para que no gire demasiado
         RotacionX -= mouseY;

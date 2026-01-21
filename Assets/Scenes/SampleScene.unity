@@ -1069,7 +1069,7 @@ Transform:
   m_GameObject: {fileID: 417396292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.578, y: 1.346, z: -3.8362}
+  m_LocalPosition: {x: -1.578, y: 1.671, z: -3.8362}
   m_LocalScale: {x: 0.2, y: 0.4, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2482,6 +2482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trampa3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8236848220105316438, guid: c126b202f286b924c840176f4c9d58d1, type: 3}
+      propertyPath: puntoInicio
+      value: 
+      objectReference: {fileID: 1539102264}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
